@@ -1,13 +1,95 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>BlogNovo</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOG TATA</title>
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
-  <app-root></app-root>
+    <div class="container">
+
+    <nav>
+        <ul>
+            <li>
+              <a routerLink="/sobre-mim" routerLinkActive="active">Sobre Mim</a>
+            </li>
+            <li>
+              <a routerLink="/projetos" routerLinkActive="active">Projetos</a>
+            </li>
+            <li>
+              <a routerLink="/contato" routerLinkActive="active">Contato</a>
+            </li>
+
+        </ul>
+    </nav>
+
+    <router-outlet></router-outlet>
+    <header>
+        <div class="center">   
+          <img src="assets/img/IMG_9939.JPG" >
+        </div>
+        
+        
+
+<h1>Olá, eu sou o Tatá</h1>
+<h2>Desenvolvedor Front-End</h2>  
+    </header>
+    <main>
+        <section>
+            <h3>Sobre Mim</h3>
+            <p>
+                Olá, meu nome é Thaís! Sou arquiteta de formação e estou em transição para o mundo da tecnologia. 
+                Sempre fui apaixonada por aprender coisas novas, encontrei na TI um universo cheio de possibilidades, onde consigo unir criatividade, lógica e propósito.
+                Atualmente, estou no início da minha jornada na área, cursando Análise e Desenvolvimento de Sistemas (ADS) e participando do processo seletivo para uma vaga
+                 de estágio na Avanade, empresa que admiro muito e onde acredito que posso aprender com os melhores.
+                Sou iniciante na área, mas estou determinada a aprender, encarar desafios e crescer a cada passo. 
+                Criei esse blog para compartilhar minha trajetória, dividir aprendizados e mostrar que recomeçar pode ser incrível quando a gente se dedica de verdade.
+                
+            </p>
+        </section>
+        <section>
+            <h3>Formação</h3>
+            <p>
+                Atualmente, sou estudante de Análise e Desenvolvimento de Sistemas na PUC Minas, onde estou no primeiro período da graduação.
+                Recentemente, finalizei um bootcamp da DIO em parceria com a Avanade, onde pude ter contato com fundamentos importantes do desenvolvimento de software. 
+                Também possuo inglês em nível intermediário, o que me ajuda a acompanhar conteúdos técnicos e expandir meu aprendizado na área de tecnologia.
+                
+            </p>
+        </section>
+        <section>
+            <h3>Cursos</h3>
+            <p>
+                Participei do bootcamp da DIO em parceria com a Avanade, onde aprendi sobre desenvolvimento com Java, consumo de APIs e criação de interfaces com Web 
+                Components. Também concluí um curso de Setup de Ambiente com Spring, que me ajudou a entender melhor o ambiente de desenvolvimento backend. 
+                Além disso, realizei um curso introdutório sobre a Lei Geral de Proteção de Dados (LGPD) pela Fundação Bradesco, o que ampliou minha visão sobre 
+                privacidade e segurança da informação.
+                
+            </p>
+        </main>
+        </section>
+
+      
+            <footer>
+                <a href="https://github.com/thaissouto" target="_blank" rel="noopener noreferrer">
+                   <img src="assets/img/github.png" alt="">
+                   <p>GitHub</p>
+                    
+                </a>
+                <a href="https://www.linkedin.com/in/tha%C3%ADs-souto-a15514357/" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/img/linkedin.png">
+                    <p>Linkedin</p>
+                     
+                 </a>
+                
+                 <a href="https://www.linkedin.com/in/tha%C3%ADs-souto-a15514357/" target="_blank" rel="noopener noreferrer">
+                    <img src="assets/img/youtube.png">
+                    <p>Youtube</p>
+                     
+                 </a>
+
+                </footer>
+        </div>
 </body>
 </html>
