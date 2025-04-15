@@ -1,59 +1,37 @@
-# BlogNovo
+✨ Blog Tatá ✨
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.7.
+Este projeto foi desenvolvido como parte do bootcamp da DIO em parceria com a Avanade, com o objetivo de aplicar os conhecimentos adquiridos em Angular na construção de uma aplicação Front-End.
 
-## Development server
+Este projeto foi desenvolvido com o objetivo de consolidar meus conhecimentos em Angular, HTML e CSS. Aplicar o que aprendi no bootcamp de forma prática, com atenção à estrutura de componentes, roteamento e organização de um projeto real.
 
-To start a local development server, run:
+Então o blog foi criado para compartilhar minha trajetória na transição de carreira, falar sobre minha formação, cursos, projetos e aprendizados na área de tecnologia. Com um visual moderno, ele traz um pouco da minha personalidade, minhas origens em Recife-PE e minha paixão por aprender coisas novas.
 
-```bash
-ng serve
-```
+🖼️ Prévia do layout do blog desenvolvido:
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+<img width="1710" alt="Captura de Tela 2025-04-15 às 12 24 15 AM" src="https://github.com/user-attachments/assets/2f345e0b-0c85-46e5-b217-434995812a58" />
 
-## Code scaffolding
+<img width="1710" alt="Captura de Tela 2025-04-15 às 12 24 46 AM" src="https://github.com/user-attachments/assets/5510745b-4aa5-4b9e-ac70-1667e1ecee91" />
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+<img width="1709" alt="Captura de Tela 2025-04-15 às 12 25 02 AM" src="https://github.com/user-attachments/assets/89a80e12-f250-4788-ae99-be53513da8c0" />
 
-```bash
-ng generate component component-name
-```
+🚀 O projeto foi construído utilizando as seguintes tecnologias:
+- Angular
+- HTML
+- CSS
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+📚 Durante o desenvolvimento deste blog, aprendi a:
 
-```bash
-ng generate --help
-```
+- Criar e estruturar um projeto Angular
+- Trabalhar com componentes e rotas
+- Aplicar animações e efeitos com CSS
+- Utilizar imagens e criar uma galeria responsiva
+- Estilizar o layout respeitando identidade visual
 
-## Building
+🧩 Desafios enfrentados:
 
-To build the project run:
+- Aprender a estrutura de um projeto Angular do zero
+- Entender como funcionam os routerLink e router-outlet
+- Resolver conflitos no Git ao fazer push para o repositório
+- Ajustar responsividade da galeria de fotos
 
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Durante o desenvolvimento, apesar de ser iniciante em Angular, me dediquei bastante, estudando e me esforçando para superar as dificuldades e finalizar o projeto com qualidade.
